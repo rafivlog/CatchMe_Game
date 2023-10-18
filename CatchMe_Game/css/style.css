@@ -1,0 +1,17 @@
+
+#box {
+    width: 10;
+    height: 8vw;
+    background-color: #7216f4;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #7216f4;
+}
+
+#box p {
+    font-size: 1.7vw;
+    color: white;
+}
