@@ -1,17 +1,20 @@
 
 #box {
-    width: 10;
-    height: 8vw;
-    background-color: #7216f4;
-    cursor: pointer;
-    position: absolute;
+   #box {
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc00; /* Yellow background */
+    border: 3px solid #000; /* Black solid border */
+    border-radius: 50%; /* Make it a circle */
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: #7216f4;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans font */
+    font-size: 20px; /* Larger font size */
+    color: #000; /* Black text color */
+    box-shadow: 5px 5px 10px #888888; /* Shadow effect */
+    transform: rotate(-5deg); /* Rotate the circle slightly */
+    animation: rotate 4s linear infinite; /* Add rotation animation */
 }
 
-#box p {
-    font-size: 1.7vw;
-    color: white;
 }
